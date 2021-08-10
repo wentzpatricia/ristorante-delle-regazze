@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> <!--links adicionados-->
+  <!--fontes principais site-->
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Pinyon+Script&display=swap" rel="stylesheet">
+    <!---->
+    <meta charset="UTF-8">
+    <!--FOLHA DE ESTILO PARA AS RODAÉ-->
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <!--FOLHA DE ESTILO PARA AS PAGINAS-->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <!--FOLHA DE ESTILO CABECALHO-->
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <title>Ristorante Delle Ragazze</title>
+</head>
+<body>
+  <div id="container"> <!---div que contempla todo o site-->
+    <header>
+      <div class="logo"> <!--coloquei a div logo pra ca tb-->
+        <figure>
+          <a href="index.html"><img src="img/logodourado.png" alt="logo do restaurante"></a> 
+        </figure>
+      </div>
+        <nav> <!---Menu de navegação-->
+            <ul>
+
+                <li>
+                <a href="index.html#vinhos"> Menu • </a>
+                </li>
+                <li>
+                    <a href="index.html#vinhos"> Vinhos • </a>
+                </li>
+                <li>
+                    <a href="index.html#receitas">Receitas •</a>
+                </li>
+                <li>
+                    <a href="avaliacoes.html" >Avaliações •</a>
+                </li>
+                <li>
+                    <!--Aqui eu fiz o trabalhe conosco.htmle pq pelo que lembro essa parte seria fora das nossas sessões
+                     e por isso também o target pra abrir numa página nova -->
+                    <a href="trabalheconosco.html">Trabalhe Conosco</a> 
+                </li>                       
+            </ul>
+        </nav>            
+        
+        <div id="slider"> 
+            <figure>   
+                <img src="img/slider1.jpg" />  
+                <img src="img/slider2.jpg" />       
+                <img src="img/slider3.jpg" />
+                <img src="img/slider4.jpg" />
+
+    
+            </figure>  
+        </div>
+        
+        <!---Temos que colocar as fotinhos como slides, mas preciso ver como que faz ): -->
+    </header>
+      
+    <section id="avaliacao">
+        <h2>Avaliações</h2>
+      <div class="avaliacoes">
+        <figure>
+          <img src="img/avaliacao1.png" alt="Foto de um cliente que avaliou nosso restaurante">
+        </figure>
+          <p>"Adorei a comida e a degustação de vinhos"</p>
+      </div>
+      <div class="avaliacoes">
+        <figure>
+          <img src="img/avaliacao2.png" alt="Foto de um cliente que avaliou nosso restaurante">
+        </figure>
+          <p>"Vim especialmente dos EUA para prestigiar o famoso menu desse restaurante, pra mim shantay you stay!"</p>
+      </div>
+      <div class="avaliacoes">
+        <figure>
+          <img src="img/avaliacao3.png" alt="Foto de um cliente que avaliou nosso restaurante">
+        </figure>
+          <p>"Você vale tudo! Valeu Edinaldo Pereira"</p>
+      </div>
+    </section>
+    <section id="formulario">
+        <form name="avaliacoes" action="recebedados.php" method="GET">
+          <fieldset>
+              <legend>Deixe sua avaliação também</legend>
+              <textarea id="avaliacao-" name="tx" cols="40" rows="5" maxlength="200"></textarea>
+              <label for="foto_avaliacao">Anexar foto</label>
+              <input type="file" name="arquivo" id="foto_avaliacao">
+              <input type="submit" name="enviar" value="Enviar" id="botao-enviar">
+
+          </fieldset>
+        </form>
+    </section>
+ 
+    <footer>
+      <figure>
+          <img src="img/logodourado.png" alt="ilustração do logo do restaurante">
+      </figure>
+
+      <div id="mapa">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2904.508222004588!2d-51.22944481826515!3d-30.035083588539344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95197906a9d397f5%3A0x514b4935e97fbf4d!2sFaculdade%20Senac%20Porto%20Alegre%20(Campus%20I)!5e0!3m2!1spt-BR!2sbr!4v1625066164015!5m2!1spt-BR!2sbr" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+
+      <div id="atendimento">
+          <p>Horário de atendimento:
+          De Terça à domingo das 18h às 22h
+          Venha conhecer nosso restaurante, você não vai se arrepender!</p>   
+      </div>  
+      <div id="endereco">
+          <p>Rua Cel. Genuíno, 130 - Centro Histórico, Porto Alegre - RS, 90010-350</p>
+      </div>
+      <div id="telefone">
+          <p>Contato (51) 9 9080-7060</p>
+      </div>
+      <div id="redes">
+        <h3>Siga a gente nas redes sociais!</h3>
+    </div>
+      <nav>
+          <ul>
+          <li>
+              <a href="https://www.instagram.com/senac_rs/"><img src="img/instagram.png" alt="botão para ir até a pagina do instagram"></a>
+          </li>
+          <li>
+              <a href="https://pt-br.facebook.com/faculdadesenacpoa/"><img src="img/facebook.png" alt="botão para ir até a pagina do facebook"></a>
+          </li>
+          <li>
+            <a href="https://web.whatsapp.com/send?phone=5551111112222"><img src="img/whatsapp.png" alt="botão para ir até o whatsapp"></a>
+          </li>
+          <li>
+              <a href="avaliacoes.html"><img src="img/seta.png" alt="botão para voltar ao inicio da página"></a>
+          </li>
+          </ul>
+      </nav>    
+    </footer>
+  </div>    
+</body>
+</html>

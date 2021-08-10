@@ -1,0 +1,98 @@
+/*******************/
+/*****GERAL********/
+* {
+    margin: 0;
+    }
+    
+    
+html{
+        font-family: 'Lora', serif;
+        font-size: 16px;
+        color: #000;
+}
+/**********************/
+/*****SLIDER***********/
+#slider {
+    overflow: hidden;
+    
+    }
+
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left:0;
+    animation: 15s slider infinite;
+}
+
+#slider figure img {
+    width: 20%;    
+    float: left;
+}
+
+/*keyframes foram mudadas*/
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    15%{
+        left:-20%;
+    }
+    25% {
+        left: -100%;
+    }
+
+    50%{
+        left:-200%;
+    }
+
+    75%{
+        left: -300%;
+    }
+    100% {
+        left:0;
+    }
+
+}
+/***********************/
+/*********HEADER*******/
+
+/*logo responsivo*/
+.logo img{
+    height:100%;
+    position:relative;
+    width:25%;
+    margin: 10px;
+}
+
+/*adicionei padding e o hover agora muda a corda fonte*/
+header nav{
+    float:right;
+    height:100%;
+    margin-top: -40px;   
+    width: -100%;
+    margin-right: 7px;
+    }
+
+header nav ul{
+    display:inline;
+    height:100%;
+}
+
+header nav ul li{
+    display: inline;
+    text-align:left;
+    vertical-align:middle;
+    }
+
+header nav ul li a{
+    text-decoration: none;    
+    font-weight: normal;
+    color:#b8860b;
+    font-size: 25px;
+    padding-left:5px;
+
+}
+header nav ul li a:hover{
+    color: #17181c;
+}

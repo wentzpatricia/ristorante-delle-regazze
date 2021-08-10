@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> <!--links adicionados-->
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Pinyon+Script&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Trabalhe Conosco</title>
+    <!--FOLHA DE ESTILO CABECALHO-->
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <!--FOLHA DE ESTILO PARA AS PAGINAS-->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+    <div id="container"> 
+        <header>
+            <div class="logo"><!--div logo responsiva-->
+            <figure>
+                <a href="index.html"><img src="img/logodourado.png" alt="logo do restaurante"></a> 
+            </figure>
+            </div>
+            <nav> <!---Menu de navegação-->
+                <ul>
+ 
+                    <li>
+                    <a href="index.html#menu"> Menu • </a>
+                    </li>
+                    <li>
+                        <a href="index.html#vinhos"> Vinhos • </a>
+                    </li>
+                    <li>
+                        <a href="index.html#receitas">Receitas •</a>
+                    </li>
+                    <li>
+                        <a href="avaliacoes.html" >Avaliações •</a>
+                    </li>
+                    <li>
+                        <!--Aqui eu fiz o trabalhe conosco.htmle pq pelo que lembro essa parte seria fora das nossas sessões
+                         e por isso também o target pra abrir numa página nova -->
+                        <a href="trabalheconosco.html">Trabalhe Conosco</a> 
+                    </li>                       
+                </ul>
+            </nav>            
+            
+            <div id="slider"> 
+                <figure>   
+                    <img src="img/slider1.jpg" />  
+                    <img src="img/slider2.jpg" />       
+                    <img src="img/slider3.jpg" />
+                    <img src="img/slider4.jpg" />
+
+        
+                </figure>  
+            </div>
+            <!---Temos que colocar as fotinhos como slides, mas preciso ver como que faz ): -->
+        </header>
+        <!--FORMULÁRIO TRABALHE CONOSCO-->
+        <section id="trabalheconosco">
+            <h3>Trabalhe conosco</h3>  
+            <div class="formulario-trabalheconosco">
+                <form name="trabalheconosco" action="recebedados_2.php"     method="POST">
+                    <fieldset>
+                        <legend>Trabalhe Conosco</legend>
+                        <!--nome-->
+                        <label for="nomecompleto">Nome Completo: </label>
+                        <input required autofocus type="text" name="nomecompleto" id="nomecompleto" placeholder="Campo Obrigatório">
+                        
+                        <!--telefone-->
+                        <label for="contato">Contato: </label>
+                        <input required type="tel" name="contato" id="contato" placeholder="ex:051 9 88888888">
+                        
+                        <!--email-->
+                        <label for="emailpessoal">Digite seu email: </label>
+                        <input required type="email" name="emailpessoal" id="emailpessoal" placeholder="seuemail@seuprovedor.com">
+                        
+                        <!--idade-->
+                        <label for="idade">Digite sua idade: </label>
+                        <input required type="number" name="idade" id="idade" min="18" max="80" value="25">
+                        
+                        
+                        <!--vaga/selecionar vaga-->
+                        <label for="vagas">Vagas disponíveis:</label>
+                        <select name="vagas" id="vagas">
+                            <option value="garcom">Garçom</option>
+                            <option value="sommelier">Sommelier</option>
+                            <option value="chefe">Chefe de Cozinha</option>
+                            <option value="auxiliar">Auxiliar de Cozinha</option>
+                            <option value="recepcionista">Recepcionista</option>
+                            <option value="gerente">Gerente</option>
+                        </select>
+                        
+                        <!--anexar curriculo-->
+                        <label for="curriculo">Upload currículo: </label>
+                        <input type="file" name="arquivo" id="curriculo">
+                        
+                        <!--botão enviar-->
+                        <input type="submit" name="cadastrar" value="Cadastrar" id="botao-cadastrar"> 
+                    </fieldset> 
+                </form>
+            </div>
+    
+            <!--SECTION FUNCIONÁRIOS DO MÊS -->      
+            <div class="funcionario1">
+                <figure>
+                    <!---Não sei se gostei da foto da chef, se tu quiser trocar fica a vontade kk-->
+                <img src="img/imagemchef.png" alt="Foto de perfil da nossa chef de cozinha">
+                </figure>        
+            
+                <p>Formada em gastronomia pela universidade de Harvard, Laís se espelha muito em chefs 
+                    como Gordon Ramsay para chefiar sua cozinha. 
+                    Com anos de experiência na área, sua comida é feita de maneira impecável.</p>
+            </div>
+
+            <div class="funcionario2">    
+                <figure>
+                    <img src="img/funcionariomes.png" alt="Foto de perfil do nosso funcionário do mês">
+                </figure>
+                
+                
+                <p>Participou do Masterchef em 2015 e trabalhou com renomado Chef Erick Jacquin, 
+                atualmente é o braço direito da Chef e durante o expediente adora degustar os pratos.</p>
+            </div>
+            
+
+        
+        </section>
+
+  <!--FOOTER  completo graças a deus-->
+        <footer>
+            <figure>
+                <img src="img/logodourado.png" alt="ilustração do logo do restaurante">
+            </figure>
+    
+            <div id="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2904.508222004588!2d-51.22944481826515!3d-30.035083588539344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95197906a9d397f5%3A0x514b4935e97fbf4d!2sFaculdade%20Senac%20Porto%20Alegre%20(Campus%20I)!5e0!3m2!1spt-BR!2sbr!4v1625066164015!5m2!1spt-BR!2sbr" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+    
+            <div id="atendimento">
+                <p>Horário de atendimento:
+                De Terça à domingo das 18h às 22h
+                Venha conhecer nosso restaurante, você não vai se arrepender!</p>   
+            </div>  
+            <div id="endereco">
+                <p>Rua Cel. Genuíno, 130 - Centro Histórico, Porto Alegre - RS, 90010-350</p>
+            </div>
+            <div id="telefone">
+                <p>Contato (51) 9 9080-7060</p>
+            </div>
+            <div id="redes">
+            <h3>Siga a gente nas redes sociais!</h3>
+            </div>
+            <nav>
+                <ul>
+                <li>
+                    <a href="https://www.instagram.com/senac_rs/"><img src="img/instagram.png" alt="botão para ir até a pagina do instagram"></a>
+                </li>
+                <li>
+                    <a href="https://pt-br.facebook.com/faculdadesenacpoa/"><img src="img/facebook.png" alt="botão para ir até a pagina do facebook"></a>
+                </li>
+                <li>
+                    <a href="https://web.whatsapp.com/send?phone=5551111112222"><img src="img/whatsapp.png" alt="botão para ir até o whatsapp"></a>
+                </li>
+                <li>
+                    <a href="trabalheconosco.html"><img src="img/seta.png" alt="botão para voltar ao inicio da página"></a>
+                </li>
+                </ul>
+            </nav>    
+        </footer>
+    </div>
+</body>
+</html>

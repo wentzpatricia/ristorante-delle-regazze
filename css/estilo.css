@@ -1,0 +1,547 @@
+/************************/
+/*********GERAL*********/
+* {
+    margin: 0;
+    }   
+html{
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    color: #000;
+}
+
+/************************/
+/*******CONTAINER********/
+
+#container{
+
+    /*max-width: 1920px;*/
+    /*min-width: 1080px;*/
+    width: 100%;
+    margin: 0 auto;
+}
+/*essas linhazinhas sao os pontilhados*/
+
+/************************/
+/*********MENU**********/
+
+/*definição do tamanhos de cada section*/
+#menu,
+#vinhos,
+#receitas{
+    width: 90%;
+    margin:0 auto;
+}
+
+#menu h2{
+    position:relative;
+    font-size: 90px;
+    font-family:'Pinyon Script';
+    font-weight: normal;
+    text-align: center;
+    color: #b8860b;
+    height: 100%;
+    width: 100%;
+}
+
+#menu h3{
+    font-family: 'Parisienne', cursive;
+    font-size: 40px;
+    font-weight: normal;
+    color: #b8860b;
+    margin: 0px 10px;
+}
+
+#menu p{
+    color: #000;
+    margin: 0  auto;
+    margin-bottom: 30px;
+    width: 40%; 
+    text-align: center;   
+}
+
+.linhazinhamenu{
+    width: 100%;     
+    height:5px;    
+    border-top: 5px dotted #b8860b;
+}
+
+/*div dos dois primeiros pratos*/
+.linha{
+    text-align: center;
+    width: 50%;
+    float: right;
+    font-size: 18px;   
+}
+
+/*div dos dois ultimos pratos*/
+.coluna{
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+/*div para mexer nas imagens*/
+.prato img{
+    width: 400px;
+    height: 300px;
+    text-align:center; 
+    padding-top: 30px;     
+}
+
+/*.prato img:hover{
+    width: 430px;
+    height: 330px;
+}*/ /*colocar outra opção de hover mais sutil*/
+
+
+/************************/
+/*********VINHOS*********/
+#vinhos h2{
+    position:relative;
+    font-size: 90px;
+    font-family:'Pinyon Script';
+    font-weight: normal;
+    text-align: center;
+    color: #b8860b;
+    height: 100%;
+    width: 100%;
+}
+
+.linhazinhavinhos{
+    width: 100%;    
+    height:5px;    
+    border-top: 5px dotted #b8860b;    
+}
+
+/*div dos dois primeiros vinhos*/
+.linhavinho{
+    text-align: center;
+    width: 50%;
+    float: right;
+    font-size: 15px;
+    /*background-color: rgb(233, 224, 185);*/
+
+}
+/*div dos vinhos e pra mexer nas imagens*/
+.vinhos img{
+    width: 75px;
+    height:250px;
+    text-align:center;
+    padding-top: 30px;     
+    
+}
+#vinhos h3{
+    font-family: 'Parisienne', cursive;
+    font-size: 35px;
+    font-weight: normal;
+    color: #b8860b;
+    margin: 7px 7px;
+    
+
+}
+.vinhos{
+    margin: 0px 60px 60px 0px;
+}
+ /*topo, direita, baixo, esquerda*/
+.vinhos p{
+    color: #000;
+    margin: 0  auto;
+    margin-bottom: 30px;
+    width: 40%; 
+    text-align: center; 
+}
+/*div dos dois ultimos vinhos*/
+.colunavinho{
+    width: 50%;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 60px;
+    /*background-color: rgb(233, 224, 185);*/
+}
+/*.vinhos img:hover{
+    width: 85px;
+    height: 270px;
+}*/
+/************************/
+/*********RECEITAS*********/
+.linhazinhareceitas{
+    width: 100%;    
+    height:5px;    
+    border-top: 5px dotted #b8860b;    
+
+}
+
+#receitas h2{
+    font-size: 90px;
+    font-family:'Pinyon Script';
+    text-align: center;
+    font-weight: normal;
+    color: #b8860b;
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+}
+
+/*img receita1*/
+#receitas article #img_receita1 img{
+    width: 450px;
+    /*topo, direita, baixo, esquerda*/
+    /*margin: 0px 0px 60px 60px;*/
+    margin: 0px 60px 60px 0px;
+    /*float: left;*/
+    float: right;  
+}
+/*article receita1*/
+#receitas article #receita1{
+    width: 45%;
+    margin: 0px 0px 60px 60px;
+
+}
+
+#receitas article p {
+    font-size: 16px;
+    border-bottom: 2px solid black;
+    text-align: justify;
+    padding: 10px 0px 10px 0px;
+}
+
+/*estilo para as duas receitas*/
+#receitas #receita1 h4,
+#receita2 h4{
+    font-size: 30px;
+    font-family: 'Parisienne', cursive;
+}
+
+#receitas #receita1 h5,
+#receita2 h5{
+    font-size:17px;
+    font-weight: bold;
+}
+
+#receitas #receita1 ul li,
+#receita2 ul li{
+    list-style-type: circle;
+    padding-bottom: 5px;
+}
+
+#receitas #receita1 ol li,
+#receita2 ol li{
+    padding-bottom: 5px;
+    text-align: justify;
+}
+
+/*img receita2*/
+#receitas article #img_receita2 img{
+    width: 450px;
+    /*topo, direita, baixo, esquerda*/
+    margin: 0px 60px 60px 0px;
+    float: right;   
+}
+
+/*article receita2*/
+#receitas article #receita2{
+    width: 45%;
+    margin: 0px 0px 60px 60px;
+}
+/*
+#receitas article:hover{
+    background-color: #EEE8AA;
+}*/
+
+/*********************/
+/*****AVALIACOES*****/
+
+#avaliacao{
+    height: 600px;
+    /*background-color: #EEE8AA;*/
+}
+
+
+#avaliacao h2{
+    color:#b8860b;
+    /*color:#17181c;*/
+    font-size: 90px;
+    font-family:'Pinyon Script';
+    text-align: center;
+    font-weight: normal;
+    margin:0 auto;
+}
+
+#avaliacao .avaliacoes{
+    width: 30%;
+    height: 90%;
+    float: right;
+    margin: 0px 4px;
+}
+
+/*#avaliacao .avaliacoes figure{
+    margin:0 auto;
+}*/
+#avaliacao .avaliacoes figure img{
+    width: 300px;
+    margin: 28px auto;
+    /*padding-right: 15px;*/
+}
+
+/*#avaliacao .avaliacoes figure img:hover{
+    width: 350px;
+}*/
+
+#avaliacao .avaliacoes p{
+    text-align: center;
+    font-size: 18px;
+    margin:28px auto;
+    padding-right: 110px;
+    /*font-family:'Courgette', cursive;*/
+}
+
+/*******************************/
+/*****FORMULARIO AVALIACÕES*****/
+#formulario{
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+#formulario form{
+    width: 46%;
+    margin: 0 auto;
+}
+
+#formulario legend{
+    /*background-color: #17181c;*/
+    /*border-radius: 5px;*/
+    color:whitesmoke;
+    font-weight: normal;
+    padding-top: 20px;
+}
+#formulario legend:hover{
+    color: #17181c;
+    font-weight: bolder;
+}
+
+#formulario fieldset{
+    width: 600px;
+    height: 200px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to top left,#EEE8AA, #b8860b 130%);
+    /*background-color: #A9A9A9;*/
+    border:0px;   
+}
+#formulario form textarea{
+    height:100px;
+    float: left;
+    border-radius: 10px;
+    border-width: 0px;
+    display: inline;
+    margin-right: 50px;
+}
+
+
+#formulario fieldset label{
+    text-align: center;
+    color:whitesmoke;
+}
+
+/*deixou oculto o input file*/
+input[type='file']{
+    display: none;
+}
+/*label do input file que funciona como botão do file*/
+#formulario label {
+    font-family:Arial, Helvetica, sans-serif;
+    color:#fff;
+    background-color:#b8860b;
+    border-radius: 5px;
+    font-weight: normal;
+    border-style: none;
+    border-width: 0px;
+    width: 150px;
+    height: 20px; 
+    float: left;
+    margin: 30px 50px 0px 30px; 
+  }
+
+#formulario #botao-enviar{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#fff;
+    background-color:#b8860b;
+    font-weight: normal;
+    border-style: none;
+    border-width: 0px;
+    border-radius: 5px;
+    width: 100px;
+    height: 20px; 
+    float: left;
+    margin: 30px 50px 0px 50px;
+}
+#formulario #botao-enviar:hover,
+#formulario label:hover{
+    color:#000;
+    background-color: #fff;
+}
+
+/****************************/
+/******TRABALHE CONOSCO*****/
+/**************************/
+
+#trabalheconosco{
+    border:  2px dotted #b8860b;
+}
+
+#trabalheconosco img{
+  width: 30%;  
+  margin-left: 40px;
+}
+
+#trabalheconosco{
+    width: 90%;
+    height: 1000px;
+    margin: 0 auto;
+    margin-top: 0px;
+    font-size: 17px;
+    
+}
+#trabalheconosco h3{
+    color:#b8860b;    
+    font-size: 80px;
+    font-family:'Pinyon Script';
+    text-align: center;
+    font-weight: normal;
+    margin:0 auto;
+    margin-top: 15px;
+    margin-bottom:0px ;
+}
+
+.funcionario1{
+    float:left;
+    width: 50%;
+    height: 50%;
+    margin-top: 15px;
+    margin-left: 150px;
+    
+    
+    
+}
+.funcionario2{
+    float: left;
+    width: 45%;
+    height: 50%;
+    position: absolute;
+    margin-top: 430px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    
+    
+}
+.funcionario1 p {
+    float:left;
+    width: 50%;
+    height: 40%;
+    margin-bottom: 30px;
+    text-align: justify;
+    margin-left: -35px;
+    margin-top: 10px;
+        
+}
+
+.funcionario2 p {
+    float:left;
+    width: 50%;
+    height: 40%;
+    margin-bottom: 60px;
+    text-align: justify;
+    margin-left: -35px;
+    margin-top: 10px;
+    
+} 
+    
+
+/*****************************/
+/*FORMULARIO TRABALHE CONOSCO*/
+
+.formulario-trabalheconosco{
+    height: 300px;
+    margin-top: 60px;
+    float: right;
+    margin-right: 130px;
+}
+
+
+.formulario-trabalheconosco legend{
+
+    background-color: #b8860b;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px;
+    color:#EEE8AA ;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+
+}
+.formulario-trabalheconosco legend:hover{
+    color: #b8860b;
+    font-weight: normal;
+    background-color:#EEE8AA ;
+}
+
+.formulario-trabalheconosco fieldset{
+    width: 300px;
+    height: 500px;
+    /*margin-bottom: 20px;*/
+    background-image: linear-gradient(to top left,#EEE8AA, #b8860b 130%);
+    /*background-color: #A9A9A9;*/
+    border:0px;
+    border-radius: 10px;   
+}
+
+.formulario-trabalheconosco fieldset label{
+    text-align: center;
+    color:whitesmoke;
+}
+
+.formulario-trabalheconosco label {
+    font-family:'Lora', serif;
+    color:#fff;
+    font-size: 20px;
+    font-weight: normal;
+    border-style: none;
+    border-width: 0px;
+    width: 150px;
+    height: 20px;
+    margin-left: 70px;
+}
+
+.formulario-trabalheconosco #botao-cadastrar{
+    font-family: 'Lora', serif;
+    font-size: 17px;
+    color:#fff;
+    background-color:#b8860b;
+    font-weight: normal;
+    border-style: none;
+    border-width: 0px;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px; 
+    margin: 20px 70px;
+    display: block;
+}
+.formulario-trabalheconosco #botao-cadastrar:hover
+/*#formulario label:hover*/{
+    color:#000;
+    background-color: #fff;
+}
+
+.formulario-trabalheconosco #nomecompleto,
+.formulario-trabalheconosco #contato,
+.formulario-trabalheconosco #emailpessoal,
+.formulario-trabalheconosco #idade,
+.formulario-trabalheconosco #vagas,
+.formulario-trabalheconosco #curriculo{
+    display: block;
+    margin-left:70px;
+    width: 150px;
+    height: 20px;   
+}
